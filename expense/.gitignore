@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env
+money
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Database and index
+*.sqlite3
+chroma_index/
+
+# Node modules (if React frontend has it)
+expense/node_modules/
